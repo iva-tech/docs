@@ -1,0 +1,32 @@
+{
+  "name": "hedgedoc-codium-extension",
+  "displayName": "HedgeDoc Codium Extension",
+  "description": "Sample extension for Codium",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.85.0" },
+  "main": "./dist/extension.js",
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "commands": [
+      { "command": "hedgedoc.editFile", "title": "Edit HedgeDoc File" },
+      { "command": "hedgedoc.saveToGit", "title": "Save HedgeDoc File to Git" }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "HedgeDoc Settings",
+      "properties": {
+        "hedgedoc.CompanyGitID": {
+          "type": "string",
+          "description": "Path to company git repository"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.2.0",
+    "vsce": "^2.18.0"
+  }
+}

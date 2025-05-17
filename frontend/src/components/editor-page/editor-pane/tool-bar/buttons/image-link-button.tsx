@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { addLink } from '../formatters/add-link'
 import React, { useCallback } from 'react'
-import { Image as IconImage } from 'react-bootstrap-icons'
+import { PhotoIcon as IconImage } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to insert an image in the {@link Editor editor}.

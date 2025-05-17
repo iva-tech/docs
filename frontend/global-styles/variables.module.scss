@@ -5,7 +5,7 @@
  */
 
 $font-family-emojis: "Twemoji";
-$font-family-base: "Source Sans Pro", Helvetica, Arial, $font-family-emojis, sans-serif;
+$font-family-base: "Fira Sans", "Source Sans Pro", Helvetica, Arial, $font-family-emojis, sans-serif;
 
 :export {
   font-family-emojis: $font-family-emojis;

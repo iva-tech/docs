@@ -371,6 +371,9 @@
       },
       "rawHtml": "Raw HTML",
       "markdown-file": "Markdown file",
+      "doc": "DOC file",
+      "rtf": "RTF file",
+      "pdf": "PDF file",
       "print": "Print"
     },
     "import": {

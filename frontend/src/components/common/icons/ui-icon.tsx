@@ -6,10 +6,10 @@
 import { concatCssClasses } from '../../../utils/concat-css-classes'
 import styles from './ui-icons.module.scss'
 import React, { Fragment, useMemo } from 'react'
-import type { Icon } from 'react-bootstrap-icons'
+import type { FC, SVGProps } from 'react'
 
 export interface UiIconProps {
-  icon: Icon | undefined
+  icon: FC<SVGProps<SVGSVGElement>> | undefined
   nbsp?: boolean
   size?: number | string
   className?: string

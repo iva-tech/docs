@@ -8,7 +8,7 @@ import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { changeCursorsToWholeLineIfNoToCursor } from '../formatters/utils/change-cursors-to-whole-line-if-no-to-cursor'
 import { wrapSelection } from '../formatters/wrap-selection'
 import React, { useCallback } from 'react'
-import { Code as IconCode } from 'react-bootstrap-icons'
+import { CodeBracketIcon as IconCode } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to create a code fence in the {@link Editor editor}.

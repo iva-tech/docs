@@ -8,12 +8,12 @@ import { UiIcon } from '../../../common/icons/ui-icon'
 import type { PropsWithChildren, RefObject } from 'react'
 import React, { useMemo } from 'react'
 import { Button } from 'react-bootstrap'
-import type { Icon } from 'react-bootstrap-icons'
+import type { FC, SVGProps } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export interface ToolbarButtonProps {
   i18nKey: string
-  icon: Icon
+  icon: FC<SVGProps<SVGSVGElement>>
   onClick: () => void
   disabled?: boolean
   buttonRef?: RefObject<HTMLButtonElement>

@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { addLink } from '../formatters/add-link'
 import React, { useCallback } from 'react'
-import { Link as IconLink } from 'react-bootstrap-icons'
+import { LinkIcon as IconLink } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to insert a link in the {@link Editor editor}.

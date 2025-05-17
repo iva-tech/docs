@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { wrapSelection } from '../formatters/wrap-selection'
 import React, { useCallback } from 'react'
-import { Eraser as IconEraser } from 'react-bootstrap-icons'
+import { HighlighterIcon as IconEraser } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button that highlights the selection in the {@link Editor editor}.

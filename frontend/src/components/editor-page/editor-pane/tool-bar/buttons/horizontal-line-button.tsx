@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { replaceSelection } from '../formatters/replace-selection'
 import React, { useCallback } from 'react'
-import { DashLg as IconDashLg } from 'react-bootstrap-icons'
+import { MinusSmallIcon as IconDashLg } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to insert a horizontal line in the {@link Editor editor}.

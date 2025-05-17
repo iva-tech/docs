@@ -21,7 +21,8 @@
     "start": "dotenv -c production -- turbo run start",
     "test:ci": "dotenv -c test -- turbo run test:ci --concurrency 1",
     "test": "dotenv -c test -- turbo run test --concurrency 1",
-    "test:e2e:ci": "dotenv -c test -- turbo run test:e2e:ci"
+    "test:e2e:ci": "dotenv -c test -- turbo run test:e2e:ci",
+    "build:codium-extension": "cd codium-extension && npm install && npm run package"
   },
   "packageManager": "yarn@4.5.3",
   "resolutions": {

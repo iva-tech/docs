@@ -11,7 +11,7 @@ import styles from './table-picker.module.scss'
 import { TableSizeText } from './table-size-text'
 import React, { useCallback, useMemo, useState } from 'react'
 import { Button, Popover } from 'react-bootstrap'
-import { Table as IconTable } from 'react-bootstrap-icons'
+import { TableCellsIcon as IconTable } from '@heroicons/react/24/outline'
 import type { PopoverProps } from 'react-bootstrap/Popover'
 import { Trans, useTranslation } from 'react-i18next'
 

@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { replaceSelection } from '../formatters/replace-selection'
 import React, { useCallback } from 'react'
-import { ChatDots as IconChatDots } from 'react-bootstrap-icons'
+import { ChatBubbleLeftEllipsisIcon as IconChatDots } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to create a comment in the {@link Editor editor}.

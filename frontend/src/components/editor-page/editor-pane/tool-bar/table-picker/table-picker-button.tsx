@@ -12,7 +12,7 @@ import './table-picker.module.scss'
 import { TableSizePickerPopover } from './table-size-picker-popover'
 import React, { Fragment, useCallback, useRef, useState } from 'react'
 import { Overlay } from 'react-bootstrap'
-import { Table as IconTable } from 'react-bootstrap-icons'
+import { TableCellsIcon as IconTable } from '@heroicons/react/24/outline'
 import type { OverlayInjectedProps } from 'react-bootstrap/Overlay'
 
 enum PickerMode {
