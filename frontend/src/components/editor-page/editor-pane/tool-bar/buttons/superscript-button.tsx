@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { wrapSelection } from '../formatters/wrap-selection'
 import React, { useCallback } from 'react'
-import { Superscript as IconSuperscript } from 'react-bootstrap-icons'
+import { ArrowUpIcon as IconSuperscript } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to format the selection in the {@link Editor editor} as superscript.

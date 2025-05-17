@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { prependLinesOfSelection } from '../formatters/prepend-lines-of-selection'
 import React, { useCallback } from 'react'
-import { List as IconList } from 'react-bootstrap-icons'
+import { ListBulletIcon as IconList } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to insert an unordered list in the {@link Editor editor}.

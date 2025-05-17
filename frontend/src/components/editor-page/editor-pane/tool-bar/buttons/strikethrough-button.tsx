@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { wrapSelection } from '../formatters/wrap-selection'
 import React, { useCallback } from 'react'
-import { TypeStrikethrough as IconTypeStrikethrough } from 'react-bootstrap-icons'
+import { MinusIcon as IconTypeStrikethrough } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to strike through the selection in the {@link Editor editor}.

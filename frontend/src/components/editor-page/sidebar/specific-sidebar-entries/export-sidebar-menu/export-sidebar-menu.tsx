@@ -9,6 +9,9 @@ import { SidebarMenu } from '../../sidebar-menu/sidebar-menu'
 import type { SpecificSidebarMenuProps } from '../../types'
 import { DocumentSidebarMenuSelection } from '../../types'
 import { ExportMarkdownSidebarEntry } from './entries/export-markdown-sidebar-entry'
+import { ExportDocSidebarEntry } from './entries/export-doc-sidebar-entry'
+import { ExportRtfSidebarEntry } from './entries/export-rtf-sidebar-entry'
+import { ExportPdfSidebarEntry } from './entries/export-pdf-sidebar-entry'
 import React, { Fragment, useCallback } from 'react'
 import {
   ArrowLeft as IconArrowLeft,
@@ -56,6 +59,9 @@ export const ExportSidebarMenu: React.FC<SpecificSidebarMenuProps> = ({
       <SidebarMenu expand={expand}>
         <ExportPrintSidebarEntry />
         <ExportMarkdownSidebarEntry />
+        <ExportDocSidebarEntry />
+        <ExportRtfSidebarEntry />
+        <ExportPdfSidebarEntry />
         <SidebarButton icon={IconFileCode} disabled={true}>
           HTML
         </SidebarButton>

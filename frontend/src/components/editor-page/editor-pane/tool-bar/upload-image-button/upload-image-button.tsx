@@ -13,7 +13,7 @@ import { ToolbarButton } from '../toolbar-button'
 import { extractSelectedText } from './extract-selected-text'
 import { Optional } from '@mrdrogdrog/optional'
 import React, { Fragment, useCallback, useRef } from 'react'
-import { Upload as IconUpload } from 'react-bootstrap-icons'
+import { ArrowUpTrayIcon as IconUpload } from '@heroicons/react/24/outline'
 
 const logger = new Logger('Upload image button')
 

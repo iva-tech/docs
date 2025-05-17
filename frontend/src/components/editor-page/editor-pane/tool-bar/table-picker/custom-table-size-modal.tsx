@@ -11,7 +11,7 @@ import type { TableSize } from './table-size-picker-popover'
 import type { ChangeEvent } from 'react'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Button, Form, ModalFooter } from 'react-bootstrap'
-import { Table as IconTable, X as IconX } from 'react-bootstrap-icons'
+import { TableCellsIcon as IconTable, XMarkIcon as IconX } from '@heroicons/react/24/outline'
 import { Trans } from 'react-i18next'
 
 export interface CustomTableSizeModalProps {

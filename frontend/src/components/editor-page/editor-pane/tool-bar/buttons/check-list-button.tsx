@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { prependLinesOfSelection } from '../formatters/prepend-lines-of-selection'
 import React, { useCallback } from 'react'
-import { CheckSquare as IconCheckSquare } from 'react-bootstrap-icons'
+import { CheckCircleIcon as IconCheckSquare } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to create a checklist in the {@link Editor editor}.

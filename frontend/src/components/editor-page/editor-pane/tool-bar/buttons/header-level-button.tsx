@@ -7,7 +7,7 @@ import type { ContentFormatter } from '../../../change-content-context/use-chang
 import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { prependLinesOfSelection } from '../formatters/prepend-lines-of-selection'
 import React, { useCallback } from 'react'
-import { TypeH1 as IconTypeH1 } from 'react-bootstrap-icons'
+import { HashtagIcon as IconTypeH1 } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to add a header in the {@link Editor editor}.

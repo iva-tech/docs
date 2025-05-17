@@ -8,7 +8,7 @@ import { FormatterToolbarButton } from '../formatter-toolbar-button'
 import { changeCursorsToWholeLineIfNoToCursor } from '../formatters/utils/change-cursors-to-whole-line-if-no-to-cursor'
 import { wrapSelection } from '../formatters/wrap-selection'
 import React, { useCallback } from 'react'
-import { ArrowsCollapse as IconArrowsCollapse } from 'react-bootstrap-icons'
+import { EyeSlashIcon as IconArrowsCollapse } from '@heroicons/react/24/outline'
 
 /**
  * Renders a button to create a spoiler section in the {@link Editor editor}.

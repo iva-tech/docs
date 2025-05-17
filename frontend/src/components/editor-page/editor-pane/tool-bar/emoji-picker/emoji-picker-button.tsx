@@ -12,7 +12,7 @@ import { extractEmojiShortCode } from './extract-emoji-short-code'
 import type { EmojiClickEventDetail } from 'emoji-picker-element/shared'
 import React, { Fragment, useCallback, useRef, useState } from 'react'
 import { Overlay } from 'react-bootstrap'
-import { EmojiSmile as IconEmojiSmile } from 'react-bootstrap-icons'
+import { FaceSmileIcon as IconEmojiSmile } from '@heroicons/react/24/outline'
 import type { OverlayInjectedProps } from 'react-bootstrap/Overlay'
 
 /**
